@@ -49,6 +49,8 @@ ul {
     background-color: #000000;
     background-size: cover;
     color: white;
+    position: relative;
+    height: 100vh;
 }
 
 .header__nav {
@@ -149,4 +151,58 @@ ul {
 
 .banner__button__desc i {
     color: white;
+}
+.header__hero-btn{
+    position: absolute;
+    width: 340px;
+    padding: 16px 20px;
+    display: inline-block;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 17px #000000
+    
+}
+.header__hero-btn:nth-child(1){
+    z-index: 4;
+    top: 630px;
+    left: 186px;
+    transform: rotate(-4deg);
+}
+.header__hero-btn:nth-child(2){
+    z-index: 3;
+    top: 670px;
+    left: 390px;
+    transform: rotate(2deg);
+}
+.header__hero-btn:nth-child(3){
+    top: 632px;
+    left: 675px;
+    transform: rotate(-2deg);
+    z-index: 2;
+}
+.header__hero-btn:nth-child(4){
+    top: 674px;
+    left: 966px;
+    transform: rotate(4deg);
+    z-index: 1;
+}
+.header__hero-btn i{
+    font-size: 22px;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-pinterest{
+    color: #CA2228;
+}
+.fa-facebook{
+    color: #00ABFF;
+}
+.fa-dribbble{
+    color: #E74D89;
+}
+.fa-xmark{
+    color: #Fff;
 }
