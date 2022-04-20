@@ -216,3 +216,55 @@ ul {
 .fa-xmark {
     color: #Fff;
 }
+
+.newtab{
+    background: #A8FF35;
+}
+.newtab__header{
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 0;
+}
+.newtab__header h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.newtab__content{
+    position: relative;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newtab__box{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.newtab__box-container{
+    padding: 20px 20px;
+    background-color: #333;
+    color: #fff;
+    display: inline-block;  
+    font-size: 24px;
+}
+.newtab__box-container i {
+    color: #A8FF35;
+    margin-right: 10px;
+}
+.newtab__content-1{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    transform: rotate(6deg);
+}
+.newtab__content-2{
+    position: absolute;
+    top: 40px;
+    right: 35px;
+}
