@@ -31,7 +31,26 @@ ul {
     border-radius: 40px;
     border: none;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
 }
+
+.fa-css3 {
+    color: #1DA1F2;
+}
+
+.fa-reddit {
+    color: #ff4500;
+}
+
+.fa-vk {
+    color: #5181b8;
+}
+
+.fa-linkedin {
+    color: #006699;
+}
+
 
 .wrapper {
     max-width: 1440px;
@@ -308,4 +327,49 @@ ul {
     gap: 40px;
     padding: 100px 0;
 
+}
+
+.platform {
+    background-color: #fafafa;
+    padding: 80px 0;
+}
+
+.platform .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform h1 {
+    font-size: 54px;
+}
+
+.platform__list {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.platform__item {
+    font-size: 60px;
+    background-color: white;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.platform__item:hover {
+    background-color: #A8FF35;
+}
+
+.platform__feedback img {
+    padding-bottom: 40px;
+}
+
+.button--black {
+    background-color: #000000;
+    color: white;
 }
