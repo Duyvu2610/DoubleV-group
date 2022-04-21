@@ -373,3 +373,212 @@ ul {
     background-color: #000000;
     color: white;
 }
+
+
+.frame7__container h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #fff;
+    margin-top: 140px;
+}
+.frame7__container{
+    background-color: #000000;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.frame7__container-checkbox{
+    position: relative;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.frame7__container-checkbox div {
+    position: absolute;
+    color: #fff;
+    left: 342px;
+    top: 30px;
+    width: 90px;
+}
+.frame7__container-checkbox div p {
+    font-family: 'GoodDog New';
+font-style: normal;
+transform: rotate(6deg);
+color: #fff;
+}
+.frame7__container-checkbox div i{
+    transform: rotate(140deg);
+}
+.frame7__container-checkbox span {
+    position: relative;
+    width: 104px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 30px;
+
+}
+.frame7__container-checkbox span::before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color:#A8FF35;
+}
+.frame7__container-checkbox__1{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.frame7__container-checkbox__2{
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+.frame7__container-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 90px;
+}
+.frame7__container-item{
+    margin: 0 20px;
+    width: 360px;
+    height: 640px;  
+    background-color: #A8FF35;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.frame7__container-list h4{
+    font-weight: 400;
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.frame7__container-list p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 2;
+margin-left: 30px;
+}
+.frame7__container-list div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 48px 0px 10px 0px;
+    margin-left: 30px;
+}
+.frame7__container-list div h2{
+    font-weight: 400;
+font-size: 64px;
+}
+.frame7__container-list div p{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.frame7__container-item ul li{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0;
+    margin-left: 30px;
+}
+.frame7__container-item ul li i {
+    padding-right: 10px;
+}
+.frame7__container-item div p {
+    position: absolute;
+    left: 53px;
+    top: 91px;
+}
+.frame7__container-item span {
+    width: 296px;
+    height: 58px;
+    background-color: red;
+    text-align: center;
+    line-height: 58px;
+    margin-top: 160px;
+    border-radius: 29px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.frame7__container-item:nth-child(1){
+    background-color: #fff;
+}
+.frame7__container-item:nth-child(1) span{
+    background-color: #A8FF35;
+}
+.frame7__container-item:nth-child(2) span{
+    background-color: #000000;
+    color: #fff;
+}
+.frame7__container-item:nth-child(3){
+    background-color: #fff;
+}
+.frame7__container-item:nth-child(3) span{
+    background-color: #A8FF35;
+}
+
+.frame8__content{
+    width: 1440px;
+    background-color: #A8FF35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.frame8__content1{
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 100px;
+}
+.frame8__content2{
+    font-weight: 900;
+    font-size: 72px;
+    color: #87D322;
+}
+.frame8__content span {
+    width: 180px;
+    height: 57px;
+    background-color: #000000;
+    color: #Fff;
+    text-align: center;
+    line-height: 57px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 50px 0 110px 0;
+    border-radius: 40px;
+}
+
+.footer {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__list{
+    display: flex;
+    padding-right: 30px;
+}
+.footer h4 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 0 20px 50px;
+}
+.footer__item{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+}
